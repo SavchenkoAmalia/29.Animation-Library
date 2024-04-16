@@ -1,89 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <header class="header">
-        <div class="header-container container">
-            <ul class="header-list">
-                <li class="header-item">
-                    <a href="#" class="header-link">Блог</a>
-                </li>
-                <li class="header-item">
-                    <a href="#" class="header-link">Профіль</a>
-                </li>
-                <li class="header-item">
-                    <a href="#" class="header-link">Галерея</a>
-                </li>
-            </ul>
-        </div>
+      <div class="header-container container">
+        <ul class="header-list">
+          <li class="header-item">
+            <a href="#" class="header-link">Блог</a>
+          </li>
+          <li class="header-item">
+            <a href="#" class="header-link">Профіль</a>
+          </li>
+          <li class="header-item">
+            <a href="#" class="header-link">Галерея</a>
+          </li>
+        </ul>
+      </div>
     </header>
     <main class="page page-home">
-        <section class="page-home-hero hero-home">
-            <div class="hero-home-container container">
-                <button class="hero-home-button">Клікни мене</button>
-            </div>
-        </section>
-        <section class="page-home-article article-home">
-            <div class="article-home-container container">
-                <article class="article-home-product">
-                    <div class="article-home-product-thumb">
-                        <img
-                        src="https://m.gemini.ua/wp-content/uploads/2021/11/01.jpg"
-                        alt="picture"
-                        class="article-home-product-image"
-                        />
-                    <div class="article-home-product-overlay">
-                        <div class="article-home-product-actions">
-                            <button aria-label="У вибране" class="article-home-product-item">
-                            <svg class="article-home-product-icon">
-                                <use href="/img/sprite.svg#work"></use>
-                            </svg>
-                        </button>
-                        <button aria-label="У вибране" class="article-home-product-item">
-                            <svg class="article-home-product-icon">
-                                <use href="/img/sprite.svg#delete"></use>
-                            </svg>
-                        </button>
-                        <button aria-label="У вибране" class="article-home-product-item">
-                            <svg class="article-home-product-icon">
-                            <use href="/img/sprite.svg#camera"></use>
-                            </svg>
-                        </button>
-                        </div>
-                        </div>
-                    </div>
-                    <div class="article-home-product-meta">
-                        <h2 class="article-home-product-name">
-                        Червоні яблуки
-                        </h2>
-                        <p class="article-home-product-price">
-                        Ціна: 100 кредитів
-                        </p>
-                    </div>
-                    </article>
-            </div>
-        </section>
-        <section class="page-home-modal modal-home">
-            <div class="modal-home-container container">
-                <button class="modal-home-button-open" data-modal-open>
-                    open modal
-                </button>
-                <div class="modal-home-backdrop is-hidden" data-modal>
-                    <div class="modal-home-modal">
-                        <button class="modal-home-button-close"  data-modal-close >close modal</button>
-                        <p class="modal-home-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo explicabo unde eius voluptates aliquid, deserunt commodi quidem, illo recusandae, blanditiis nulla. Alias, harum. Quas velit voluptatibus, id at dolor minus.</p>
-                    </div>
+      <section class="page-home-hero hero-home">
+        <div class="hero-home-container container">
+          <button class="hero-home-button">Клікни мене</button>
+        </div>
+      </section>
+      <section class="page-home-article article-home">
+        <div class="article-home-container container">
+          <article class="article-home-product">
+            <div class="article-home-product-thumb">
+              <img
+                src="https://m.gemini.ua/wp-content/uploads/2021/11/01.jpg"
+                alt="picture"
+                class="article-home-product-image"
+              />
+              <div class="article-home-product-overlay">
+                <div class="article-home-product-actions">
+                  <button
+                    aria-label="У вибране"
+                    class="article-home-product-item"
+                  >
+                    <svg class="article-home-product-icon">
+                      <use href="/img/sprite.svg#work"></use>
+                    </svg>
+                  </button>
+                  <button
+                    aria-label="У вибране"
+                    class="article-home-product-item"
+                  >
+                    <svg class="article-home-product-icon">
+                      <use href="/img/sprite.svg#delete"></use>
+                    </svg>
+                  </button>
+                  <button
+                    aria-label="У вибране"
+                    class="article-home-product-item"
+                  >
+                    <svg class="article-home-product-icon">
+                      <use href="/img/sprite.svg#camera"></use>
+                    </svg>
+                  </button>
                 </div>
+              </div>
             </div>
-        </section>
+            <div class="article-home-product-meta">
+              <h2 class="article-home-product-name">Червоні яблуки</h2>
+              <p class="article-home-product-price">Ціна: 100 кредитів</p>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="page-home-modal modal-home">
+        <div class="modal-home-container container">
+          <button class="modal-home-button-open" data-modal-open>
+            open modal
+          </button>
+          <div class="modal-home-backdrop is-hidden" data-modal>
+            <div class="modal-home-modal">
+              <button class="modal-home-button-close" data-modal-close>
+                close modal
+              </button>
+              <p class="modal-home-text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo
+                explicabo unde eius voluptates aliquid, deserunt commodi quidem,
+                illo recusandae, blanditiis nulla. Alias, harum. Quas velit
+                voluptatibus, id at dolor minus.
+              </p>
+            </div>
+          </div>
+          <h1 class="animate__animated animate__bounce">An animated element</h1>
+        </div>
+      </section>
     </main>
     <footer class="footer"></footer>
-    <script src="./js/modal" ></script>
-</body>
+    <script src="./js/modal"></script>
+  </body>
 </html>
